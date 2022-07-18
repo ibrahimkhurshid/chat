@@ -1,0 +1,38 @@
+.msg-input-container {
+  width: 100%;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.msg-input {
+  width: 70%;
+  max-width: 70%;
+  font-size: 1.2rem;
+  border-style: none;
+  padding: 15px;
+  border-radius: 25px 25px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  border: 1px solid #f87162;
+  font-family: monospace;
+  color: #a8a8a8;
+}
+.msg-input::placeholder {
+  color: #a8a8a8;
+}
+.msg-input:focus {
+  border: 2px solid #f87162;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px inset;
+  color: #505050;
+}
+.send-btn {
+  width: 25%;
+  min-width: 25%;
+  border-radius: 100px 100px;
+  height: 50px;
+  background-color: #f87162;
+  border-style: none;
+  color: #f9f9f9;
+  font-size: 1rem;
+  margin-left: 2px;
+}
